@@ -130,7 +130,7 @@ jobs:
 
       - name: Compile
 
-        run: haxelib run lime build android --app-version="4.0.0-${{ github.run_id}}"
+        run: haxelib run lime build android
 
       - name: Publish Artifact
 
