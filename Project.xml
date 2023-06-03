@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF: Kade Engine" file="KadeEngine" main="Main" version="1.0.1"
+	<app title="Hololive Funkin'" file="HoloFunk" main="Main" version="0.2.7.1"
 	packageName="com.kadedev.kadeengine" package="com.kadedev.kadeengine" company="kadedev" />
 <!--NOTE: If you make a mod then be sure to change the package (NOT packageName)
 	otherwise the mod will be replace original kade engine port!
@@ -96,7 +96,7 @@
 	<assets path="assets/week6"    library="week6"    exclude="*.ogg" if="web"/>
 	<assets path="assets/week6"    library="week6"    exclude="*.mp3" unless="web"/>
 	
-	<!-- <assets path='example_mods' rename='mods' embed='false'/> -->
+	<assets path='example_mods' rename='mods' embed='false'/>
 	<assets path='art/readme.txt' rename='do NOT readme.txt' /> 
 	<assets path='LICENSE' rename='LICENSE.txt' />
 	<!-- <template path='mods' /> -->
