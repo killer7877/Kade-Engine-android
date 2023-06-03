@@ -3,7 +3,7 @@
 	<!-- _________________________ Application Settings _________________________ -->
 
 	<app title="Hololive Funkin'" file="HoloFunk" main="Main" version="0.2.7.1"
-	packageName="com.kadedev.kadeengine" package="com.kadedev.kadeengine" company="kadedev" />
+	packageName="com.joy.holofunk" package="com.joy.holofunk" company="joy" />
 <!--NOTE: If you make a mod then be sure to change the package (NOT packageName)
 	otherwise the mod will be replace original kade engine port!
 -->
